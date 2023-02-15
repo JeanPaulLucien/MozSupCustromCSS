@@ -1,0 +1,75 @@
+/*
+Title: Mozilla's Support website Style by Paul
+Author: Paul K.
+Version: 1.0
+Date: 2023-02-15
+Website: https://github.com/JeanPaulLucien/MozSupCustromCSS
+*/
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("support.mozilla.org") {
+
+  
+  .sumo-nav--logo {
+	height: auto;
+	margin: 0 20px 0 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	width: auto;
+}
+  /* add beaty Mozilla's logo */
+  .sumo-nav--logo a {
+    background: orange;
+	height: 48px;
+	width: 48px;
+    border-radius: 20px;
+}
+  
+  /* hide ugly nowadays logo */
+  .sumo-nav--logo a img {
+	display: none; 
+}
+  
+  .sumo-page-section--lg {
+	padding-top: 4px;
+}
+  .sumo-page-section--lg.extra-pad-bottom {
+	padding-bottom: 4px;
+}
+  
+  
+  .home-search-section {
+    background: orange;
+}
+  /* hide ugly Search Support h1 */  
+  .home-search-section h1.sumo-page-heading-xl {
+    display: none;
+}
+  
+  .card--product {
+	min-height: auto;
+}
+  .sumo-card-grid .card {
+	background-color: grey;
+	padding-left: 0px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+  .card--icon {
+	background-color: white;
+	padding: 16px 4px;
+	border-radius: 0px 4px 4px 0px;
+	box-shadow: 1px 1px 2px black;
+}
+  
+  
+  /* hide an ugly image */
+  .card--callout-wrap-narrow img.card--feature-img {
+    display: none;
+}
+
+  .mzp-c-footer {
+	background: #072905;
+  }
+}
