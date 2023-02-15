@@ -10,7 +10,6 @@ Website: https://github.com/JeanPaulLucien/MozSupCustromCSS
 
 @-moz-document domain("support.mozilla.org") {
 
-  
   .sumo-nav--logo {
 	height: auto;
 	margin: 0 20px 0 0;
